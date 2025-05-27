@@ -6,6 +6,7 @@ public class PlayerMove : MonoBehaviour
 {
     public GameObject HighLight;
     public Transform hero;
+    public Rigidbody2D player;
     void Start()
     {
         
@@ -21,7 +22,7 @@ public class PlayerMove : MonoBehaviour
         {
             print("you choose Hero");
             HighLight.SetActive(true);
-            GameManagerFor.Game.chooseHero(hero);
+            GameManagerFor.Game.chooseHero(hero,2);
         }
         else
         {
@@ -29,8 +30,15 @@ public class PlayerMove : MonoBehaviour
             GameManagerFor.Game.UnChoose();
         }    
     }
-
-
+    public void MovePlayer()
+    {
+        
+        transform.position = new Vector3(GameManagerFor.Game.xToMove,GameManagerFor.Game.yToMove,0);
+    }
+    private void FixedUpdate()
+    {
+        MovePlayer();
+    }
     void Update()
     {
         

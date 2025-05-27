@@ -9,11 +9,11 @@ public class Rock : TypeSquare
     {
         BaseColor.color = color1;
     }
-        void OnMouseEnter()
+     public   void OnMouseEnter()
     {
         HighLight.SetActive(true);
     }
-    void OnMouseExit()
+  public  void OnMouseExit()
     {
         HighLight.SetActive(false);
 
