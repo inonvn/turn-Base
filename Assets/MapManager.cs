@@ -8,6 +8,7 @@ public class MapManager : MonoBehaviour
     public GameObject Square,rock;
     public Transform cam;
     [SerializeField] TypeSquare grassType, rockType;
+    int i,j;
  
    
     void Start()
@@ -20,20 +21,27 @@ public class MapManager : MonoBehaviour
    public void mapRender()
     { 
        
-        for (int i = 0; i <GameManagerFor.Game. x; i++)
+        for ( i = 0; i <GameManagerFor.Game. x; i++)
         {
-            for (int j = 0; j <GameManagerFor.Game. y; j++)
+            for ( j = 0; j <GameManagerFor.Game. y; j++)
             {
 
                 var RandomMap = (Random.Range(1, 8) == 7 ? rockType : grassType);
               var SpawnSquare =  Instantiate(RandomMap, new Vector3(i, j), Quaternion.identity);
                SpawnSquare.name = $"{i},{j}";
                SpawnSquare.e(i, j);
-               
+                
+                GameManagerFor.Game.mapCheck.Add(SpawnSquare);
+                GameManagerFor.Game.RandomSpawnHero(i, j,SpawnSquare.itWall);
+
+
             }
         }
+        
         cam.transform.position = new Vector3(GameManagerFor.Game.x / 2, (GameManagerFor.Game.y / 2)-0.5f, -10);
+       
     }
+
    
    
     }

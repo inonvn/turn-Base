@@ -7,6 +7,7 @@ public abstract class TypeSquare : MonoBehaviour
    
     public  SpriteRenderer BaseColor;
     public GameObject HighLight;
+    public bool itWall;
    [SerializeField] public virtual void e (float x,float y)
     {
 

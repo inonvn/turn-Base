@@ -11,10 +11,14 @@ public class GameManagerFor : MonoBehaviour
     public float xToMove, yToMove;
     public bool HeroSpawn,InChoose;
     public HashSet<ChooseZone> gridMap = new HashSet<ChooseZone>();
+    public Dictionary<Vector2Int, PlayerMove> map;
+    public List<TypeSquare> mapCheck = new List<TypeSquare>();
+
     public void Awake()
     {
         Game = this;
     }
+
   public void chooseHero (Transform hero,int range)
     { int e=0;
         int f = 0;
@@ -67,14 +71,24 @@ public class GameManagerFor : MonoBehaviour
         gridMap.Clear();
         InChoose=false;
     }    
-   public void RandomSpawnHero (float H,float V)
+   public void RandomSpawnHero (float H,float V,bool wall)
     {
         int heroCount = 1;
-        for (int i = 0; i < heroCount; i++) {
-            Instantiate(Player,new Vector3(H,V,0), Quaternion.identity);
-            HeroSpawn= true;
+       
+        
+            if (heroCount == 1 && (Random.Range(0, 8) == 0) && wall==false && HeroSpawn == false)
+            {
+                print("gayh");
+            print(H);
+            print(V);
+            xToMove = H; yToMove=V;
+                Instantiate(Player, new Vector3(xToMove, yToMove, 0), Quaternion.identity);
+
+                heroCount--;
+                HeroSpawn = true;
+            }
                  }
-    }
+    
     // Update is called once per frame
     void Update()
     {

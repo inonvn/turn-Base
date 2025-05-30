@@ -12,16 +12,13 @@ public class Grass : TypeSquare
         if ((x % 2 != 0 && y % 2 == 0) || (x % 2 == 0 && y % 2 != 0))
         {
             BaseColor.color = color1;
+            itWall = false;
         }
         else
         {BaseColor.color = color2;
         }
-        if (Random.Range(0,3) == 0 && GameManagerFor.Game.HeroSpawn==false)
-        {
-            
-            GameManagerFor.Game.RandomSpawnHero(x,y);
-        }    
-}
+        
+    }
    
 
     void OnMouseEnter()

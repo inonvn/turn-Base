@@ -236,9 +236,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 8665301551855204787, guid: f69ecabb15eb2e645802e1c8a71c43e0, type: 3}
-  Grid: {fileID: 4900413445468451179, guid: 7ba2e31afcfdb6f41ac715648e4e4ff3, type: 3}
+  Grid: {fileID: -732068852744381243, guid: 7ba2e31afcfdb6f41ac715648e4e4ff3, type: 3}
   x: 10
   y: 5
+  xToMove: 0
+  yToMove: 0
   HeroSpawn: 0
   InChoose: 0
 --- !u!4 &643498253

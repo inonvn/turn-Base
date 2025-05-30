@@ -8,6 +8,7 @@ public class Rock : TypeSquare
     public override void e(float x, float y)
     {
         BaseColor.color = color1;
+        itWall = true;
     }
      public   void OnMouseEnter()
     {

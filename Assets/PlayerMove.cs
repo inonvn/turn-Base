@@ -7,6 +7,8 @@ public class PlayerMove : MonoBehaviour
     public GameObject HighLight;
     public Transform hero;
     public Rigidbody2D player;
+    public int G, H;
+    public int F { get {return G+H;} }
     void Start()
     {
         
@@ -33,7 +35,7 @@ public class PlayerMove : MonoBehaviour
     public void MovePlayer()
     {
         
-        transform.position = new Vector3(GameManagerFor.Game.xToMove,GameManagerFor.Game.yToMove,0);
+        transform.position = new Vector3(GameManagerFor.Game.xToMove,GameManagerFor.Game.yToMove,0f);
     }
     private void FixedUpdate()
     {
