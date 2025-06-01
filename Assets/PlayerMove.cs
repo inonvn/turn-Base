@@ -7,8 +7,8 @@ public class PlayerMove : MonoBehaviour
     public GameObject HighLight;
     public Transform hero;
     public Rigidbody2D player;
-    public int G, H;
-    public int F { get {return G+H;} }
+
+    public TypeSquare pos;
     void Start()
     {
         

@@ -11,8 +11,10 @@ public class GameManagerFor : MonoBehaviour
     public float xToMove, yToMove;
     public bool HeroSpawn,InChoose;
     public HashSet<ChooseZone> gridMap = new HashSet<ChooseZone>();
-    public Dictionary<Vector2Int, PlayerMove> map;
-    public List<TypeSquare> mapCheck = new List<TypeSquare>();
+    
+    public Vector2Int GridPosCheck;
+    public Dictionary<Vector2Int,TypeSquare> mapCheck = new Dictionary<Vector2Int,TypeSquare>();
+    public MapPath PathFind;
 
     public void Awake()
     {
@@ -59,6 +61,7 @@ public class GameManagerFor : MonoBehaviour
     }    
     public void GoToHere (float e,float f)
     {
+        
          xToMove=e; yToMove=f;
     }    
     public void UnChoose ()
@@ -78,7 +81,7 @@ public class GameManagerFor : MonoBehaviour
         
             if (heroCount == 1 && (Random.Range(0, 8) == 0) && wall==false && HeroSpawn == false)
             {
-                print("gayh");
+                
             print(H);
             print(V);
             xToMove = H; yToMove=V;

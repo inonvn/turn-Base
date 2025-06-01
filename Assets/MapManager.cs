@@ -30,10 +30,11 @@ public class MapManager : MonoBehaviour
               var SpawnSquare =  Instantiate(RandomMap, new Vector3(i, j), Quaternion.identity);
                SpawnSquare.name = $"{i},{j}";
                SpawnSquare.e(i, j);
-                
-                GameManagerFor.Game.mapCheck.Add(SpawnSquare);
+                SpawnSquare.locationV2 = new Vector2Int(i, j);
+                var GridPos = new Vector2Int (i, j);
+                GameManagerFor.Game.mapCheck.Add(GridPos,SpawnSquare);
                 GameManagerFor.Game.RandomSpawnHero(i, j,SpawnSquare.itWall);
-
+                GameManagerFor.Game.GridPosCheck = GridPos;
 
             }
         }
