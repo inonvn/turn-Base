@@ -1,97 +1,237 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
+using static eventFor;
 
 public class GameManagerFor : MonoBehaviour
 {
     public static GameManagerFor Game;
     public GameObject Player;
+    public GameObject mousePos;
     public ChooseZone Grid;
-    public float x, y;
-    public float xToMove, yToMove;
+  public int x,y;
     public bool HeroSpawn,InChoose;
     public HashSet<ChooseZone> gridMap = new HashSet<ChooseZone>();
+    public PlayerMove chara;
+    public TypeSquare TypeSquares;
     
-    public Vector2Int GridPosCheck;
     public Dictionary<Vector2Int,TypeSquare> mapCheck = new Dictionary<Vector2Int,TypeSquare>();
     public MapPath PathFind;
-
+    public List<TypeSquare> path = new List<TypeSquare>();
+    public int speed;
+    public int ranged;
+    public List<TypeSquare> test1 = new List<TypeSquare>();
+    public List<eventFor> eventkey = new List<eventFor>();
+    public eventFor eventf;
     public void Awake()
     {
         Game = this;
     }
-
-  public void chooseHero (Transform hero,int range)
-    { int e=0;
-        int f = 0;
-        print("youChoose");
-        for (float i = hero.position.x-range;i<= hero.position.x;i++)
-        {
-            for (float j = hero.position.y - range; j <= hero.position.y + range; j ++)
-            {
-                if (j <= hero.position.y + e && j >= hero.position.y - e )
-                {
-                    var test = Instantiate(Grid, new Vector3(i, j, 0), Quaternion.identity);
-                    gridMap.Add(test);
-                }
-                
-
-            }
-            
-         
-            e++;
-        }
-        for (float i = hero.position.x + range; i > hero.position.x; i--)
-        {
-            for (float j = hero.position.y - range; j <= hero.position.y + range; j++)
-            {
-                if (j <= hero.position.y + f && j >= hero.position.y - f)
-                {
-                    var test = Instantiate(Grid, new Vector3(i, j, 0), Quaternion.identity);
-                    gridMap.Add(test);
-                }
-
-
-            }
-
-
-            f++;
-        }
-        InChoose = true;
-    }    
-    public void GoToHere (float e,float f)
+    public void Start()
     {
-        
-         xToMove=e; yToMove=f;
-    }    
-    public void UnChoose ()
-    {
-        foreach (var t in gridMap)
-        {
-
-           Destroy(t.gameObject);
-        }    
-        gridMap.Clear();
-        InChoose=false;
-    }    
-   public void RandomSpawnHero (float H,float V,bool wall)
-    {
-        int heroCount = 1;
        
+        PathFind = new MapPath();
+       
+    }
+    public void LateUpdate()
+    {
         
-            if (heroCount == 1 && (Random.Range(0, 8) == 0) && wall==false && HeroSpawn == false)
+        if (chara != null)
+        {
+            checkRay();
+            
+          if (  Input.GetMouseButtonDown(0) )
             {
+                if (chara.pos == TypeSquares)
+                {
+                    if (InChoose == false)
+                    {
+                        chooseHero();
+                    }
+                    else
+                    {
+                        unchoose();
+                    }
+                    InChoose = !InChoose;
+                }
+                if (InChoose==true)
+                {
+                   getinrange();
+                    path = PathFind.Path(chara.pos, TypeSquares,test1);
+                    print(chara.pos);
+                    print(TypeSquares);
+                    print($"so luong {path.Count}");
+                }
+                else
+                {
+                    var test1 = showZone(TypeSquares, ranged);
+                    foreach (var item in test1)
+                    {
+                        item.hide();
+                    }
+                }    
                 
-            print(H);
-            print(V);
-            xToMove = H; yToMove=V;
-                Instantiate(Player, new Vector3(xToMove, yToMove, 0), Quaternion.identity);
-
-                heroCount--;
-                HeroSpawn = true;
             }
-                 }
+          
+            if (path.Count > 0)
+
+            {
+                findWay();
+            }
+        }
+    }
+    public key rand1()
+    {
+        int i = 0;
+        var e = (key)Random.Range((int)key.none, (int)key.Exit + 1);
+        
+        if (e == key.Exit )
+        {
+            i++;
+            if (i>1)
+                e = (key)Random.Range((int)key.none, (int)key.trap + 1);
+        }
+        
+        
+        return e;
+    }
+    public void randEvent ()
+    {
+        foreach (var p in mapCheck)
+        {
+            if (p.Value.itWall != true &&  p.Value != chara.pos)
+                       p.Value.randomEvent = rand1();
+            else if (p.Value == chara.pos)
+                p.Value.randomEvent = key.none;
+        }
+        var e = mapCheck.Where(i => i.Value.randomEvent == key.Exit);
+        if (e==null)
+        {
+            print("e");
+            randEvent();
+        }    
+    }    
+    void getinrange ()
+    {
+        foreach (var item in test1)
+        {
+            item.hide();
+           
+        }
+        
+         test1 = showZone(chara.pos, ranged);
+
+        foreach (var item in test1)
+        {
+            print(item.gameObject.name);
+            item.show();
+        }
+    }    
+
+    private void findWay()
+    {
+        chara.transform.position =Vector2.MoveTowards(chara.transform.position, path[0].transform.position,speed*Time.deltaTime);
+        chara.transform.position = new Vector3(chara.transform.position.x,chara.transform.position.y, 0);
+        if (Vector2.Distance(chara.transform.position, path[0].transform.position) < 0.01f)
+        {
+            charapos(path[0]);
+            eventcheck();
+            path.RemoveAt(0);
+        }
+        if (path.Count==0)
+        {
+            getinrange();
+        }    
+    }
+
+    private void eventcheck()
+    {
+        
+    }
+
+    public void checkRay ()
+    {
+        Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 mouse1 = new Vector2(mouse.x, mouse.y);
+       
+       
+        RaycastHit2D[] hit = Physics2D.RaycastAll(mouse1, Vector2.zero);
+        
+        if (hit.Length > 0)
+        {
+         
+            var test = hit.OrderBy(i => i.collider.transform.position.z).FirstOrDefault();
+            mousePos.transform.position = test.transform.position;
+            
+            TypeSquares = test.collider.gameObject.GetComponent<TypeSquare>();
+            
+        }
+        
+         
+    }
+    public void chooseHero ()
+    {
+
+       
+    }    
+    public void unchoose ()
+    {
+
+       
+    }    
+
+   
     
+    public void RandomSpawnHero()
+    {
+
+        print("gay1");
+        foreach (var t in mapCheck)
+            {
+                if (Random.Range(0, 8) == 0 && t.Value.itWall == false && chara==null)
+                {
+                print("gay");
+                    TypeSquares = t.Value;
+                    chara = Instantiate(Player).GetComponent<PlayerMove>();
+                    charapos(TypeSquares);
+
+                    HeroSpawn = true;
+                }
+            
+            
+        }
+    }
+
+    private void charapos(TypeSquare typeSquares)
+    {
+        chara.transform.position = new Vector3 (typeSquares.transform.position.x, typeSquares.transform.position.y,0.001f);
+        chara.pos = typeSquares;
+    }
+
+    public List<TypeSquare> showZone(TypeSquare e, int range)
+    {
+        var inrange = new List<TypeSquare>();
+        var tp = new List<TypeSquare>();
+        int step = 0;
+        inrange.Add(e);
+        tp.Add(e);
+        while (step < range)
+        {
+           var squareXQ = new List<TypeSquare>();
+            foreach (var i in tp)
+            {
+                squareXQ.AddRange(PathFind.neigbour(i,new List<TypeSquare>()));
+            }    
+            inrange.AddRange(squareXQ);
+            tp=squareXQ.Distinct().ToList();
+            step++;
+        }
+        
+        return inrange.Distinct().ToList();
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -3,34 +3,41 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.Mathematics;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class MapPath
 {
-    public List<TypeSquare> Path(TypeSquare start, TypeSquare end)
+    public List<TypeSquare> Path(TypeSquare start, TypeSquare end,List<TypeSquare> Search)
     {
+        
      List<TypeSquare> open = new List<TypeSquare>();
         List<TypeSquare> close = new List<TypeSquare>();
         open.Add(start);
         while (open.Count > 0)
         {
+            
             TypeSquare current = open.OrderBy(e=>e.F).First();
             open.Remove(current);
             close.Add(current);
+          
             if (current==end)
             {
                 return ResetList(start,end);
             }
-            var checkNei = neigbour(current);
+            var checkNei = neigbour(current,Search);
+
             foreach (var e in checkNei)
             {
-                if (e.itWall == true || close.Contains(e) )
+                Debug.Log($"{e.locationV2.x} , {e.locationV2.y}" );
+             
+                if (e.itWall == true || close.Contains(e) || math.abs(current.locationV2.y-e.locationV2.y)>1)
                 { continue; }
                 e.G = MathM(start, e);
                 e.H = MathM(end, e);
                 
                 e.Part = current;
-                if (open.Contains(e)== false )
+                if (!open.Contains(e) )
                 {
                     open.Add(e);
                 }    
@@ -60,31 +67,43 @@ public class MapPath
 
     }
 
-    public List<TypeSquare> neigbour(TypeSquare current)
+    public List<TypeSquare> neigbour(TypeSquare current,List<TypeSquare> inRange)
     {
         var m = GameManagerFor.Game.mapCheck;
-        
-       List<TypeSquare> ni = new List<TypeSquare>();
+        Dictionary<Vector2Int, TypeSquare> TileToSeach = new Dictionary<Vector2Int, TypeSquare>();
+        if (inRange.Count > 0)
+        {
+            foreach (var t in inRange)
+            {
+                TileToSeach.Add(t.locationV2copy, t);
+            }
+        }
+        else
+        {
+            TileToSeach = m;
+        }
 
-        Vector2Int ViTriCheck = new Vector2Int(GameManagerFor.Game.GridPosCheck.x,GameManagerFor.Game.GridPosCheck.y+1);
-        if (m.ContainsKey(ViTriCheck))
+                List<TypeSquare> ni = new List<TypeSquare>();
+
+        Vector2Int ViTriCheck = new Vector2Int(current.locationV2.x,current.locationV2.y+1);
+        if (TileToSeach.ContainsKey(ViTriCheck))
         {
-            ni.Add(m[ViTriCheck]);
+            ni.Add(TileToSeach[ViTriCheck]);
         }
-         ViTriCheck = new Vector2Int(GameManagerFor.Game.GridPosCheck.x, GameManagerFor.Game.GridPosCheck.y - 1);
-        if (m.ContainsKey(ViTriCheck))
+         ViTriCheck = new Vector2Int(current.locationV2.x, current.locationV2.y - 1);
+        if (TileToSeach.ContainsKey(ViTriCheck))
         {
-            ni.Add(m[ViTriCheck]);
+            ni.Add(TileToSeach[ViTriCheck]);
         }
-         ViTriCheck = new Vector2Int(GameManagerFor.Game.GridPosCheck.x - 1, GameManagerFor.Game.GridPosCheck.y );
-        if (m.ContainsKey(ViTriCheck))
+         ViTriCheck = new Vector2Int(current.locationV2.x - 1, current.locationV2.y );
+        if (TileToSeach.ContainsKey(ViTriCheck))
         {
-            ni.Add(m[ViTriCheck]);
+            ni.Add(TileToSeach[ViTriCheck]);
         }
-        ViTriCheck = new Vector2Int(GameManagerFor.Game.GridPosCheck.x + 1, GameManagerFor.Game.GridPosCheck.y);
-        if (m.ContainsKey(ViTriCheck))
+        ViTriCheck = new Vector2Int(current.locationV2.x + 1, current.locationV2.y);
+        if (TileToSeach.ContainsKey(ViTriCheck))
         {
-            ni.Add(m[ViTriCheck]);
+            ni.Add(TileToSeach[ViTriCheck]);
         }
         return ni;
     }

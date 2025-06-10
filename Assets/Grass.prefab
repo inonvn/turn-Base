@@ -103,5 +103,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BaseColor: {fileID: 2169761470022772911}
   HighLight: {fileID: 7900876588441761700}
+  showZone: {fileID: 3128407857181755988, guid: 10c2a42d0cbf24243b46fc45f8327222, type: 3}
+  itWall: 0
+  locationV2: {x: 0, y: 0}
+  Part: {fileID: 0}
+  G: 0
+  H: 0
   color1: {r: 0.06368848, g: 0.764151, b: 0, a: 1}
   color2: {r: 0.0021804967, g: 0.46226418, b: 0.031065054, a: 1}

@@ -33,12 +33,13 @@ public class MapManager : MonoBehaviour
                 SpawnSquare.locationV2 = new Vector2Int(i, j);
                 var GridPos = new Vector2Int (i, j);
                 GameManagerFor.Game.mapCheck.Add(GridPos,SpawnSquare);
-                GameManagerFor.Game.RandomSpawnHero(i, j,SpawnSquare.itWall);
-                GameManagerFor.Game.GridPosCheck = GridPos;
+
+               
 
             }
         }
-        
+      GameManagerFor.Game.  RandomSpawnHero();
+        GameManagerFor.Game.randEvent();
         cam.transform.position = new Vector3(GameManagerFor.Game.x / 2, (GameManagerFor.Game.y / 2)-0.5f, -10);
        
     }

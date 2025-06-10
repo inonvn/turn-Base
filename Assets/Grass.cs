@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static eventFor;
 
 public class Grass : TypeSquare
 {
@@ -21,13 +22,19 @@ public class Grass : TypeSquare
     }
    
 
-    void OnMouseEnter()
+  
+    public override void show()
     {
+
         HighLight.SetActive(true);
     }
-    void OnMouseExit()
+    public override void hide()
     {
-        HighLight.SetActive(false);
 
+        HighLight.SetActive(false);
     }
+    public override void eventrand()
+    {
+    
+}
 }
