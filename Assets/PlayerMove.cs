@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,38 +12,19 @@ public class PlayerMove : MonoBehaviour
     public TypeSquare pos;
     void Start()
     {
-        
+
     }
-  
-    private void OnMouseExit()
+    private void OnMouseDown()
     {
-        HighLight.SetActive(false);
-    }
-    public void OnMouseDown()
-    {
-        if (Input.GetMouseButtonDown(0) && GameManagerFor.Game.InChoose==false)
+        if (GameManagerFor.Game.InChoose)
         {
-            print("you choose Hero");
-            HighLight.SetActive(true);
-            GameManagerFor.Game.chooseHero(hero,2);
+            GameManagerFor.Game.chooseHero();
         }
-        else
+        if (!GameManagerFor.Game.InChoose)
         {
-            HighLight.SetActive(false);
-            GameManagerFor.Game.UnChoose();
-        }    
+            GameManagerFor.Game.unchoose();
+        }
     }
-    public void MovePlayer()
-    {
-        
-        transform.position = new Vector3(GameManagerFor.Game.xToMove,GameManagerFor.Game.yToMove,0f);
-    }
-    private void FixedUpdate()
-    {
-        MovePlayer();
-    }
-    void Update()
-    {
-        
-    }
+
+
 }

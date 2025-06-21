@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,13 +11,6 @@ public class Rock : TypeSquare
         BaseColor.color = color1;
         itWall = true;
     }
-     public   void OnMouseEnter()
-    {
-        HighLight.SetActive(true);
-    }
-  public  void OnMouseExit()
-    {
-        HighLight.SetActive(false);
 
-    }
+
 }

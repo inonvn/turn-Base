@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: cdd631d528a1b8c478c7018b8783d180
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2637170844516794254
+    second: Steampunk&FantasyUIPack_0
+  - first:
+      213: -9008194680286309244
+    second: Steampunk&FantasyUIPack_1
+  - first:
+      213: 4941115782146763599
+    second: Steampunk&FantasyUIPack_2
+  - first:
+      213: 6319893777459570746
+    second: Steampunk&FantasyUIPack_3
+  - first:
+      213: -3602445210235968258
+    second: Steampunk&FantasyUIPack_4
+  - first:
+      213: 1936054768907634407
+    second: Steampunk&FantasyUIPack_5
+  - first:
+      213: 1349817847540431598
+    second: Steampunk&FantasyUIPack_6
+  - first:
+      213: 3134004573913102821
+    second: Steampunk&FantasyUIPack_7
+  - first:
+      213: 5854359336255704926
+    second: Steampunk&FantasyUIPack_8
+  - first:
+      213: -2168070173611679422
+    second: Steampunk&FantasyUIPack_9
+  - first:
+      213: -6148232044495047787
+    second: Steampunk&FantasyUIPack_10
+  - first:
+      213: -5224732827342282907
+    second: Steampunk&FantasyUIPack_11
+  - first:
+      213: -972523910791157755
+    second: Steampunk&FantasyUIPack_12
+  - first:
+      213: 9181453633950161422
+    second: Steampunk&FantasyUIPack_13
+  - first:
+      213: 6697044302822051586
+    second: Steampunk&FantasyUIPack_20
+  - first:
+      213: 4515506650240654450
+    second: Steampunk&FantasyUIPack_21
+  - first:
+      213: 504570791292263826
+    second: Steampunk&FantasyUIPack_22
+  - first:
+      213: -3148116080522681988
+    second: Steampunk&FantasyUIPack_23
+  - first:
+      213: -363087660793956095
+    second: Steampunk&FantasyUIPack_29
+  - first:
+      213: 1628445230344220489
+    second: Steampunk&FantasyUIPack_30
+  - first:
+      213: -2774109739162858998
+    second: Steampunk&FantasyUIPack_32
+  - first:
+      213: -7708118873327388649
+    second: Steampunk&FantasyUIPack_36
+  - first:
+      213: -2905856962748661748
+    second: Steampunk&FantasyUIPack_38
+  - first:
+      213: -1542757583758659797
+    second: Steampunk&FantasyUIPack_41
+  - first:
+      213: -895300880720834462
+    second: Steampunk&FantasyUIPack_42
+  - first:
+      213: 5852016882427512113
+    second: Steampunk&FantasyUIPack_45
+  - first:
+      213: -3503042868190079293
+    second: Steampunk&FantasyUIPack_49
+  - first:
+      213: 1936981769457435338
+    second: Steampunk&FantasyUIPack_50
+  - first:
+      213: -1538492714211264763
+    second: Steampunk&FantasyUIPack_51
+  - first:
+      213: 7297555089339489923
+    second: Steampunk&FantasyUIPack_52
+  - first:
+      213: -1043414610176065972
+    second: Steampunk&FantasyUIPack_53
+  - first:
+      213: -2429073776658128206
+    second: Steampunk&FantasyUIPack_54
+  - first:
+      213: -1622519563891905591
+    second: Steampunk&FantasyUIPack_55
+  - first:
+      213: 5874874293875723146
+    second: Steampunk&FantasyUIPack_56
+  - first:
+      213: -1943304157464176621
+    second: Steampunk&FantasyUIPack_57
+  - first:
+      213: -8999954586295353208
+    second: Steampunk&FantasyUIPack_58
+  - first:
+      213: 5171477371960049335
+    second: Steampunk&FantasyUIPack_59
+  - first:
+      213: 6387066665752220947
+    second: Steampunk&FantasyUIPack_60
+  - first:
+      213: -6623679635266478274
+    second: Steampunk&FantasyUIPack_61
+  - first:
+      213: 854200570306288901
+    second: Steampunk&FantasyUIPack_62
+  - first:
+      213: 5872035288380217830
+    second: Steampunk&FantasyUIPack_63
+  - first:
+      213: 7167142269495361057
+    second: Steampunk&FantasyUIPack_64
+  - first:
+      213: -6966214305351268934
+    second: Steampunk&FantasyUIPack_65
+  - first:
+      213: 7959486797893682448
+    second: Steampunk&FantasyUIPack_66
+  - first:
+      213: -55179572534845644
+    second: Steampunk&FantasyUIPack_67
+  - first:
+      213: 8416940008155997626
+    second: Steampunk&FantasyUIPack_68
+  - first:
+      213: -3777136307851896950
+    second: Steampunk&FantasyUIPack_69
+  - first:
+      213: -6421806940295130037
+    second: Steampunk&FantasyUIPack_70
+  - first:
+      213: 1281255596324183225
+    second: Steampunk&FantasyUIPack_71
+  - first:
+      213: 3034634335543302276
+    second: Steampunk&FantasyUIPack_72
+  - first:
+      213: -2761359580370557199
+    second: Steampunk&FantasyUIPack_73
+  - first:
+      213: 5261994889268635128
+    second: Steampunk&FantasyUIPack_74
+  - first:
+      213: -6685901076446383678
+    second: Steampunk&FantasyUIPack_75
+  - first:
+      213: 2145040001864703533
+    second: Steampunk&FantasyUIPack_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2704f88d613e66bd0800000000000000
+      internalID: -2637170844516794254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48498fd6aa67cf280800000000000000
+      internalID: -9008194680286309244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b2fecef9e529440800000000000000
+      internalID: 4941115782146763599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38eda708e5c4b750800000000000000
+      internalID: 6319893777459570746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4e319fa2b810ec0800000000000000
+      internalID: -3602445210235968258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c07efd8f3eda10800000000000000
+      internalID: 1936054768907634407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 643
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea31224e248bb210800000000000000
+      internalID: 1349817847540431598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 550
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e93a882e883e7b20800000000000000
+      internalID: 3134004573913102821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 550
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f43017cccde3150800000000000000
+      internalID: 5854359336255704926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 550
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a1cdf9a779e1e0800000000000000
+      internalID: -2168070173611679422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 549
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f23fb7871daaa0800000000000000
+      internalID: -6148232044495047787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 550
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd0f3ec250e77b0800000000000000
+      internalID: -5224732827342282907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 579
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50828b1e7a6e082f0800000000000000
+      internalID: -972523910791157755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 579
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a91554f631b6f70800000000000000
+      internalID: 9181453633950161422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 515
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f03ca9f4ea0fc50800000000000000
+      internalID: 6697044302822051586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c128ccf5d4aae30800000000000000
+      internalID: 4515506650240654450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 476
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d530b1678900700800000000000000
+      internalID: 504570791292263826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 477
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7120ccaa15af44d0800000000000000
+      internalID: -3148116080522681988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 363
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1097c0c32bd06faf0800000000000000
+      internalID: -363087660793956095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 363
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fa8d22f46699610800000000000000
+      internalID: 1628445230344220489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 363
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0f3dd3e16089d0800000000000000
+      internalID: -2774109739162858998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 289
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71836dc59b2470590800000000000000
+      internalID: -7708118873327388649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 289
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00454ffc725ca7d0800000000000000
+      internalID: -2905856962748661748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_41
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 289
+        width: 128
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f6685c626079ae0800000000000000
+      internalID: -1542757583758659797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_42
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 289
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2605a8da7904393f0800000000000000
+      internalID: -895300880720834462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_45
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 289
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1354ea8695a863150800000000000000
+      internalID: 5852016882427512113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c690904211b26fc0800000000000000
+      internalID: -3503042868190079293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20be028aa81ea10800000000000000
+      internalID: 1936981769457435338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50739e7170d26aae0800000000000000
+      internalID: -1538492714211264763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e9cec80bf164560800000000000000
+      internalID: 7297555089339489923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eb007b0fb0581f0800000000000000
+      internalID: -1043414610176065972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2631915423a4ed0800000000000000
+      internalID: -2429073776658128206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 195
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbe9199d07ab79e0800000000000000
+      internalID: -1622519563891905591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b498a3b0fb78150800000000000000
+      internalID: 5874874293875723146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318dec33a2ff705e0800000000000000
+      internalID: -1943304157464176621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c731dcfcb91380800000000000000
+      internalID: -8999954586295353208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be36a72547c4c740800000000000000
+      internalID: 5171477371960049335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31556e8da4b63a850800000000000000
+      internalID: 6387066665752220947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fd3f92776f314a0800000000000000
+      internalID: -6623679635266478274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dda0894eabadb00800000000000000
+      internalID: 854200570306288901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e91670cbf8ad7150800000000000000
+      internalID: 5872035288380217830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e35f3cbedc67360800000000000000
+      internalID: 7167142269495361057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab50b447ff8035f90800000000000000
+      internalID: -6966214305351268934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0154dde4217c57e60800000000000000
+      internalID: 7959486797893682448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fd33c9876fb3ff0800000000000000
+      internalID: -55179572534845644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab569e1b75afec470800000000000000
+      internalID: 8416940008155997626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 67
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87d1464a8ae49bc0800000000000000
+      internalID: -3777136307851896950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44129bac9821e6a0800000000000000
+      internalID: -6421806940295130037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_71
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc526d2d2fe7c110800000000000000
+      internalID: 1281255596324183225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488134999df2d1a20800000000000000
+      internalID: 3034634335543302276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f624ea871eada9d0800000000000000
+      internalID: -2761359580370557199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f527c8f87c560940800000000000000
+      internalID: 5261994889268635128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1f207f468e633a0800000000000000
+      internalID: -6685901076446383678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steampunk&FantasyUIPack_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e162c4486b4cd10800000000000000
+      internalID: 2145040001864703533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
