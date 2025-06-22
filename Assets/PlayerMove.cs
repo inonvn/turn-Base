@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,7 @@ public class PlayerMove : MonoBehaviour
     public TypeSquare pos;
     void Start()
     {
-        
+
     }
     private void OnMouseDown()
     {

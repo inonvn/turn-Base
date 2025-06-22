@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,5 +12,9 @@ public class Rock : TypeSquare
         itWall = true;
     }
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> map-ngẫu-nhiên
 }
